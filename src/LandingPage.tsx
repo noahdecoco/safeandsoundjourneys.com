@@ -27,7 +27,7 @@ function LandingPage() {
             Safe & Sound Journeys
           </h1>
           <p className="font-body text-lg text-gray-200 sm:text-xl md:text-2xl">
-            Guided psilocybin journeys with live music and mindful presence
+            Guided sound journeys with live music and mindful presence
           </p>
 
           <NewsletterForm />
