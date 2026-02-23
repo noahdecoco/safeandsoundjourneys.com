@@ -9,7 +9,7 @@ const NewsletterForm = () => {
         className="mx-auto mt-10 flex w-full max-w-md flex-col items-center gap-4"
       >
         <label htmlFor="bd-email" className="font-body text-sm tracking-wide text-gray-300">
-          Subscribe to receive updates about journeys and events.
+          Subscribe to receive updates about journeys & events.
         </label>
 
         <input

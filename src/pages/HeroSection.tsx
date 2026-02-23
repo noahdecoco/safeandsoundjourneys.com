@@ -1,8 +1,8 @@
-import landingBg from './landing-background.jpg';
-import logo from './logo.svg';
-import NewsletterForm from './components/NewsletterForm.tsx';
+import landingBg from '../landing-background.jpg';
+import logo from '../logo.svg';
+import NewsletterForm from '../components/NewsletterForm.tsx';
 
-function LandingPage() {
+function HeroSection() {
   return (
     <div className="relative min-h-screen w-screen">
       {/* Background image */}
@@ -12,11 +12,11 @@ function LandingPage() {
       ></div>
 
       {/* Blur overlay */}
-      <div className="absolute inset-0 bg-black opacity-50"></div>
+      <div className="absolute inset-0 bg-black opacity-60"></div>
 
       {/* Content */}
       <div className="relative z-10 flex min-h-screen items-center justify-center px-6">
-        <div className="max-w-3xl text-center">
+        <div className="max-w-4xl text-center">
           <img
             src={logo}
             alt="Logo"
@@ -27,7 +27,7 @@ function LandingPage() {
             Safe & Sound Journeys
           </h1>
           <p className="font-body text-lg text-gray-200 sm:text-xl md:text-2xl">
-            Guided sound journeys with live music and mindful presence
+            Guided psilocybin journeys with live music & mindful presence
           </p>
 
           <NewsletterForm />
@@ -37,4 +37,4 @@ function LandingPage() {
   );
 }
 
-export default LandingPage;
+export default HeroSection;
